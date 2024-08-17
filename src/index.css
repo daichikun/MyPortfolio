@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@layer base {
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../public/Fonts/lato.regular.ttf') format('woff2');
+  }
+} */
+
+@font-face {
+  font-family: 'Lato<3';
+  /*a name to be used later*/
+  src: url('../public/Fonts/lato.regular.ttf');
+  /*URL to font*/
+}
+body {
+  background: #30283B;
+}
+#root {
+  font-family: 'Lato<3';
+  
+}
+
