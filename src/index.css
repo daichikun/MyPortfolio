@@ -15,7 +15,7 @@
 @font-face {
   font-family: 'Lato<3';
   /*a name to be used later*/
-  src: url('../public/Fonts/lato.regular.ttf');
+  src: url('/Fonts/lato.regular.ttf');
   /*URL to font*/
 }
 body {
@@ -26,3 +26,6 @@ body {
   
 }
 
+.active {
+  color: #01A93E;
+}
